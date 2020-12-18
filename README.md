@@ -3,11 +3,22 @@
 
 _[Large-Scale Channel and Video Metadata from English-Speaking YouTube]_
 
-- For  context and an explanation of how data collection was done see [here](here!).
+- For  context and an explanation of how data collection was done see [the paper](todo).
 - Please cite this dataset if you use it:
-
-      <citation>
-
+```
+@dataset{manoel_horta_ribeiro_2020_4327607,
+  author       = {Manoel Horta Ribeiro and
+                  Robert West},
+  title        = {{YouNiverse: Large-Scale Channel and Video Metadata 
+                   from English-Speaking YouTube}},
+  month        = dec,
+  year         = 2020,
+  publisher    = {Zenodo},
+  version      = {1.0},
+  doi          = {10.5281/zenodo.4327607},
+  url          = {https://doi.org/10.5281/zenodo.4327607}
+}
+```
 ## Scripts
 
 We provide two jupyter notebooks along with the dataset:
@@ -106,7 +117,7 @@ b) do not have the suffix `_en` before the name extension.
 ## Helper file
 
 The large `.json` file associated with video metadata can be quite painful to deal with. 
-With that in mind, we also provide a helper (`df_metadata_helper.feather`). 
+With that in mind, we also provide a helper (`yt_metadata_helper.feather`). 
 This DataFrame contains the same fields as `df_videos_raw.jsonl.gz`, 
 except `description`, `tags`, and `title` (the largest fields).
 Feather is a language-agnostic portable file that can be easily loaded in Python or R (see [here][feather]).
