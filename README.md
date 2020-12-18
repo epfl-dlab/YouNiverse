@@ -3,7 +3,8 @@
 
 _[Large-Scale Channel and Video Metadata from English-Speaking YouTube]_
 
-- For  context and an explanation of how data collection was done see [the paper](todo).
+- Data is made available through Zenodo (https://doi.org/10.5281/zenodo.4327607).
+- For context and an explanation of how data collection was done, see [the paper](todo).
 - Please cite this dataset if you use it:
 ```
 @dataset{manoel_horta_ribeiro_2020_4327607,
