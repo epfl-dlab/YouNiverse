@@ -16,6 +16,7 @@ _[Large-Scale Channel and Video Metadata from English-Speaking YouTube]_
       primaryClass={cs.SI}
 }
 ```
+
 ## Scripts
 
 We provide two jupyter notebooks along with the dataset:
@@ -43,7 +44,7 @@ as well as rankings obtained from `socialblade.com`.
 | Gaming      | 2015-08-26 | UCi_AR7WqvXa6LEnRn_7ES7A | Thunder Play |          11500 |       849 |             877395 |  11.175  |
 | Sports      | 2016-02-04 | UCgVlxaBsBkmMh2SUgrzG1ZQ | Thunder Prod |          76000 |        61 |             198340 |  5.5295  |
 | Music       | 2013-09-14 | UCNBYpqbD64tkuuFS-NNhkfQ | Thunder Rain |          33700 |        58 |             382980 |  6.5855  |
-​
+
 Some facts about it:
 
 - This dataframe has 136,470 rows, where each one corresponds to a different channel.
