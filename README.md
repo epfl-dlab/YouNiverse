@@ -12,7 +12,8 @@ _[Large-Scale Channel and Video Metadata from English-Speaking YouTube]_
       title={YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube}, 
       author={Ribeiro, Manoel Horta and West Robert},
       year={2021},
-      booktitle={{Proceedings of the 15th International AAAI Conference on Weblogs and Social Media (ICWSM'21)}}
+      booktitle={{Proceedings of the 15th International AAAI Conference 
+                  on Weblogs and Social Media (ICWSM'21)}}
 }
 ~~~
 
