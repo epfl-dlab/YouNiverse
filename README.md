@@ -3,19 +3,19 @@
 
 _[Large-Scale Channel and Video Metadata from English-Speaking YouTube]_
 
-- Data is made available through [Zenodo](https://doi.org/10.5281/zenodo.4327607).
+- Data is made available through [Zenodo](https://doi.org/10.5281/zenodo.4650046).
 - For context and an explanation of how data collection was done, see [the paper](https://arxiv.org/abs/2012.10378).
 - Please cite this dataset if you use it:
+
 ```
-@misc{ribeiro2020youniverse,
+@inproceedings{ribeiro2020youniverse,
       title={YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube}, 
-      author={Manoel Horta Ribeiro and Robert West},
-      year={2020},
-      eprint={2012.10378},
-      archivePrefix={arXiv},
-      primaryClass={cs.SI}
+      author={Ribeiro, Manoel Horta and West Robert},
+      year={2021},
+      booktitle={ICWSM}
 }
 ```
+
 
 ## Scripts
 
@@ -104,6 +104,26 @@ Below we show the data recorded for each of the video
 Some facts about it:
 - This data was crawled from YouTube between 2019-10-29 and 2019-11-23.
 - It contains 72,924,794 videos created between 2005-05-24 to 2019-11-20.
+
+## Comment data
+
+The file `youtube_comments.tsv.gz` contains metadata data related to ~8.6B comments made by ~449M users in 20.5M videos.
+Each rows corresponds to a comment. 
+It contains an anonymized user id, a video id, the number of replies the comment received, and the number of likes the comment received.
+
+| author | video_id      |  likes |  replies |
+|:------|:--------------|:-------|---------:|
+| 1      | Gkb1QMHrGvA   |  2     |  0       |
+| 1      | CNtp0xqoods   |  0     |  0       |
+| 1      | 249EEzQmVmQ   |  1     |  0       |
+| 1      | rJbjhm0weYc   |  0     |  0       |
+| 2      | EpHERODJ7gM   |  0     |  0       |
+| 2      | 9pQILRT42Cg   |  0     |  0       |
+| 2      | PWWRzCyuiFU   |  0     |  0       |
+| 3      | o7W2fdWXnPc   |  0     |  0       |
+
+Some facts about it:
+- We only make available comments for videos with more than 30 comments.
 
 ## Raw files (pre-language filtering)
 
