@@ -7,15 +7,14 @@ _[Large-Scale Channel and Video Metadata from English-Speaking YouTube]_
 - For context and an explanation of how data collection was done, see [the paper](https://arxiv.org/abs/2012.10378).
 - Please cite this dataset if you use it:
 
-```
-@inproceedings{ribeiro2020youniverse,
+~~~bibtex
+@inproceedings{ribeiro2021youniverse,
       title={YouNiverse: Large-Scale Channel and Video Metadata from English-Speaking YouTube}, 
       author={Ribeiro, Manoel Horta and West Robert},
       year={2021},
-      booktitle={ICWSM}
+      booktitle={{Proceedings of the 15th International AAAI Conference on Weblogs and Social Media (ICWSM'21)}}
 }
-```
-
+~~~
 
 ## Scripts
 
