@@ -48,7 +48,7 @@ as well as rankings obtained from `socialblade.com`.
 Some facts about it:
 
 - This dataframe has 136,470 rows, where each one corresponds to a different channel.
-- We obtained all channels with >10k subscribers and 1>0 videos from `channelcrawler.com` in the 27 October 2019.
+- We obtained all channels with >10k subscribers and >10 videos from `channelcrawler.com` in the 27 October 2019.
 - Additionally we filtered all channels that were not in english given their video metadata (see `Raw Channels').
 
 ## Time Series Data
