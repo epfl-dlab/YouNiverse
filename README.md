@@ -83,7 +83,7 @@ Some facts about it:
 
 ## Video Metadata
 
-The file `df_videos_raw.jsonl.gz` contains metadata data related to ~73M videos from ~137k channels.
+The file `yt_metadata_en.jsonl.gz` contains metadata data related to ~73M videos from ~137k channels.
 Below we show the data recorded for each of the video
 
     {
